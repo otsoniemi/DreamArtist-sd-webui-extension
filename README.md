@@ -1,4 +1,4 @@
-# DreamArtist (webui Eextension)
+# DreamArtist (WebUI Extension)
 
 Paper: [![arXiv](https://img.shields.io/badge/arXiv-2211.11337-b31b1b.svg)](https://arxiv.org/abs/2211.11337)
 
@@ -7,7 +7,7 @@ with [Stable-Diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-
 
 Standalone version: [DreamArtist](https://github.com/7eu7d7/DreamArtist-stable-diffusion)
 
-Everyone is an artist. Rome wasn't built in a day, but your artist dreams can be!
+Everyone is an artist. Rome wasn't built in a day, but your artist's dreams can be!
 
 With just ***one*** training image DreamArtist learns the content and style in it, generating diverse high-quality images with high controllability.
 Embeddings of DreamArtist can be easily combined with additional descriptions, as well as two learned embeddings.
@@ -19,14 +19,14 @@ Embeddings of DreamArtist can be easily combined with additional descriptions, a
 
 # Setup and Running
 
-Clone this repo to extension folder.
+Clone this repo to the extension folder.
 ```bash
 git clone https://github.com/7eu7d7/DreamArtist-sd-webui-extension.git extensions/DreamArtist
 ```
 
 ## Training and Usage
 
-First create the positive and negative embeddings in ```DreamArtist Create Embedding``` Tab.
+First, create the positive and negative embeddings in ```DreamArtist Create Embedding``` Tab.
 ![](imgs/create.jpg)
 
 ### Preview Setting
@@ -37,14 +37,14 @@ After that, the ```names``` of the positive and negative embedding (```{name}```
 ### Train
 Then, select positive embedding and set the parameters and image folder path in the ```DreamArtist Train``` Tab to start training.
 The corresponding negative embedding is loaded automatically.
-If your VRAM is low or you want save time, you can uncheck the ```reconstruction```.
+If your VRAM is low or you want to save time, you can uncheck the ```reconstruction```.
 
 [Recommended parameters](https://github.com/7eu7d7/DreamArtist-sd-webui-extension#pre-trained-embeddings)
 
-***better to train without filewords***
+***better to train without file words***
 ![](imgs/train.jpg)
 
-Remember to check the option below, otherwise the preview is wrong.
+Remember to check the option below, otherwise, the preview is wrong.
 ![](imgs/fromtxt.png)
 
 ### Inference
